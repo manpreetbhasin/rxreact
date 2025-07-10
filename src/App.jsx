@@ -8,10 +8,6 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <nav>
-        <Link to="/">Home</Link> |{" "}
-      </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/001" element={<Page_001 />} />

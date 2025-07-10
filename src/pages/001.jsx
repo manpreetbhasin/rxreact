@@ -1,4 +1,6 @@
 import CodeHighlight from "../CodeHighlight";
+import SlidingPanel from './SlidingPanel';
+import './SlidingPanel.css';
 
 function Page_001() {
   return (
@@ -14,7 +16,7 @@ function Page_001() {
     `}</pre>
 
     </p>
-      <h2 style="text-align:center"> Basic Setup</h2>
+      <h2 style={{'textAlign':'center'}}> Basic Setup</h2>
       <>
         <h4>Step 1: React Installation</h4>
         // Installing React
@@ -88,6 +90,10 @@ export default App
       </>
 
       <>
+        <SlidingPanel>
+            <h2>Sliding Panel Content</h2>
+            <p>This is the content of the sliding panel. It can be any React components.</p>
+        </SlidingPanel>
       </>
     </div>
   );
