@@ -14,7 +14,7 @@ function Page_001() {
     `}</pre>
 
     </p>
-      <h3> Basic Setup</h3>
+      <h2 style="text-align:center"> Basic Setup</h2>
       <>
         <h4>Step 1: React Installation</h4>
         // Installing React
