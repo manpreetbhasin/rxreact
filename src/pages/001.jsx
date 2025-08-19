@@ -5,7 +5,7 @@ import './SlidingPanel.css';
 function Page_001() {
   return (
     <div className="container">
-    <p className="summary">
+    <div className="summary">
     This page will guide you through the basic setup of a React project with React Router.
     <br />
     <pre>{`
@@ -15,7 +15,7 @@ function Page_001() {
     11.3.0
     `}</pre>
 
-    </p>
+    </div>
       <h2 style={{'textAlign':'center'}}> Basic Setup</h2>
       <>
         <h4>Step 1: React Installation</h4>
